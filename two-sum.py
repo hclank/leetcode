@@ -6,5 +6,3 @@ def twoSum(nums: list[int], target: int) -> list[int]:
         difference = target - nums[i]
         if difference in numsMap:
              print(f"{numsMap[difference]}, {i}")
-    
-
